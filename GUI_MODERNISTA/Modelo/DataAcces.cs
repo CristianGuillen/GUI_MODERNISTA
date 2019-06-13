@@ -9,7 +9,7 @@ namespace GUI_MODERNISTA.Modelo
 {
     class DataAcces
     {
-            string connString = "Server"
+        string connString = "Server";
 
     }
 
