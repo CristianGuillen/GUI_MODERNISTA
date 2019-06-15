@@ -1,6 +1,6 @@
 ﻿namespace GUI_MODERNISTA
 {
-    partial class Form1
+    partial class ViewHabitacion
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewHabitacion));
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
@@ -128,6 +128,7 @@
             this.BarraTitulo.Name = "BarraTitulo";
             this.BarraTitulo.Size = new System.Drawing.Size(1300, 38);
             this.BarraTitulo.TabIndex = 0;
+            this.BarraTitulo.Paint += new System.Windows.Forms.PaintEventHandler(this.BarraTitulo_Paint);
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
             // 
             // btnRestaurar
@@ -895,7 +896,7 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Form1
+            // ViewHabitacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -904,7 +905,7 @@
             this.Controls.Add(this.MenuVertical);
             this.Controls.Add(this.BarraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "ViewHabitacion";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.BarraTitulo.ResumeLayout(false);

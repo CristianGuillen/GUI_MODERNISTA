@@ -12,9 +12,9 @@ using System.Runtime.InteropServices;
 
 namespace GUI_MODERNISTA
 {
-    public partial class Form1 : Form
+    public partial class ViewHabitacion : Form
     {
-        public Form1()
+        public ViewHabitacion()
         {
             InitializeComponent();
             reservOpc.Visible=false;
@@ -157,6 +157,11 @@ namespace GUI_MODERNISTA
             habDetallesTxt.Text = "";
             
             
+        }
+
+        private void BarraTitulo_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

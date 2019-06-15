@@ -56,14 +56,50 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppData.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Controlador\Habitacion.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Modelos\Habitacion.cs" />
+    <Compile Include="Visual\DetallesHuesped.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\DetallesHuesped.Designer.cs">
+      <DependentUpon>DetallesHuesped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\ListaCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\ListaCliente.Designer.cs">
+      <DependentUpon>ListaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\ListadoReservaciones.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\ListadoReservaciones.Designer.cs">
+      <DependentUpon>ListadoReservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\NuevoHuesped.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\NuevoHuesped.Designer.cs">
+      <DependentUpon>NuevoHuesped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\NuevaReservacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visual\NuevaReservacion.Designer.cs">
+      <DependentUpon>NuevaReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visual\ViewHabitacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Visual\ViewHabitacion.Designer.cs">
+      <DependentUpon>ViewHabitacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modelo\DataAcces.cs" />
+    <Compile Include="Controlador\DataAcces.cs" />
     <Compile Include="posDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -71,8 +107,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Visual\DetallesHuesped.resx">
+      <DependentUpon>DetallesHuesped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\ListaCliente.resx">
+      <DependentUpon>ListaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\ListadoReservaciones.resx">
+      <DependentUpon>ListadoReservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\NuevoHuesped.resx">
+      <DependentUpon>NuevoHuesped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\NuevaReservacion.resx">
+      <DependentUpon>NuevaReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual\ViewHabitacion.resx">
+      <DependentUpon>ViewHabitacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
